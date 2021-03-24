@@ -14,12 +14,12 @@ click==7.1.2
 coverage @ file:///tmp/build/80754af9/coverage_1614614861224/work
 cryptography @ file:///tmp/build/80754af9/cryptography_1608674099201/work
 Flask==1.1.2
-flatbuffers @ file:///tmp/build/80754af9/python-flatbuffers_1614345733764/work
-gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+flatbuffers==1.12
+gast==0.3.3
 google-auth @ file:///tmp/build/80754af9/google-auth_1601995530934/work
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-grpcio @ file:///home/builder/ktietz/ci_grpcio/grpcio_1613123281713/work
+grpcio==1.32.0
 gunicorn==20.0.4
 h5py @ file:///tmp/build/80754af9/h5py_1608649014695/work
 idna @ file:///tmp/build/80754af9/idna_1593446292537/work
@@ -32,7 +32,7 @@ MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1607027305082/work
 multidict @ file:///tmp/build/80754af9/multidict_1607367781142/work
 numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1607448156598/work
 oauthlib==3.1.0
-opt-einsum==3.1.0
+opt-einsum==3.3.0
 protobuf==3.14.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
