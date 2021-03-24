@@ -1,58 +1,58 @@
-absl-py @ file:///tmp/build/80754af9/absl-py_1615410667905/work
-aiohttp @ file:///tmp/build/80754af9/aiohttp_1614360979875/work
+absl-py==0.12.0
+aiohttp==3.7.4
 appdirs==1.4.4
 astunparse==1.6.3
 async-timeout==3.0.1
-attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
+attrs==19.1.0
 blinker==1.4
 brotlipy==0.7.0
-cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
+cachetools==4.2.1
 certifi==2020.12.5
-cffi @ file:///tmp/build/80754af9/cffi_1613246951236/work
-chardet @ file:///tmp/build/80754af9/chardet_1605303192865/work
+cffi==1.14.5
+chardet==4.0.0
 click==7.1.2
-coverage @ file:///tmp/build/80754af9/coverage_1614614861224/work
-cryptography @ file:///tmp/build/80754af9/cryptography_1608674099201/work
+coverage==5.5
+cryptography==3.4.6
 Flask==1.1.2
 flatbuffers==1.12
 gast==0.3.3
-google-auth @ file:///tmp/build/80754af9/google-auth_1601995530934/work
+google-auth=1.28.0
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 grpcio==1.32.0
 gunicorn==20.0.4
-h5py @ file:///tmp/build/80754af9/h5py_1608649014695/work
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+h5py==2.10.0
+idna==2.8
+importlib-metadata==3.7.3
 itsdangerous==1.1.0
 Jinja2==2.11.2
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
-Markdown @ file:///tmp/build/80754af9/markdown_1614363852612/work
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1607027305082/work
-multidict @ file:///tmp/build/80754af9/multidict_1607367781142/work
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1607448156598/work
+Keras-Preprocessing==1.0.5
+Markdown==3.3.4
+MarkupSafe==1.1.1
+multidict==5.1.0
+numpy==1.19.2
 oauthlib==3.1.0
 opt-einsum==3.3.0
 protobuf==3.14.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-PyJWT @ file:///tmp/build/80754af9/pyjwt_1610911318034/work
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+pycparser==2.19
+PyJWT==2.0.1
+pyOpenSSL==19.1.0
+PySocks==1.7.1
+requests==2.23.0
 requests-oauthlib==1.3.0
-rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
-scipy @ file:///tmp/build/80754af9/scipy_1614022783410/work
+rsa==4.7.2
+scipy==1.6.1
 six==1.15.0
-tensorboard @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_te/tensorboard_1614593728657/work/tmp_pip_dir
+tensorboard==2.0.0
 tensorboard-plugin-wit==1.6.0
 tensorflow==2.4.1
-tensorflow-estimator @ file:///home/builder/ktietz/aggregate/tensorflow_recipes/ci_te/tensorflow-estimator_1614592767119/work/whl_temp/tensorflow_estimator-2.4.0-py2.py3-none-any.whl
+tensorflow-estimator==2.4.1
 termcolor==1.1.0
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/work
-urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+typing-extensions==3.7.4.1
+urllib3==1.25.8
 Werkzeug==1.0.1
-wrapt @ file:///tmp/build/80754af9/wrapt_1607574498026/work
-yarl @ file:///tmp/build/80754af9/yarl_1606939947528/work
-zipp @ file:///tmp/build/80754af9/zipp_1603306325174/work
+wrapt==1.12.1
+yarl==1.6.3
+zipp==0.3.3
