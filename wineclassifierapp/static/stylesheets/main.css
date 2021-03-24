@@ -226,3 +226,12 @@ table {
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+  }
+
+}
