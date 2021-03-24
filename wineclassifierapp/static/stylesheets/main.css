@@ -1,0 +1,228 @@
+/* body styling */
+/* background image: https://unsplash.com/photos/34_cEpcBjpE */
+
+.background-image {
+    background-image: url("https://images.unsplash.com/photo-1548025396-689d647d00c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80");
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+
+body {
+  color: white;
+}
+
+/* main styling */
+
+a {
+  text-decoration: none;
+  color: hsl(30, 100%, 50%);
+  text-shadow: 2px 2px 8px black;
+}
+
+main, header {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+#title {
+  text-shadow: 3px 3px 9px black;
+}
+
+.font-headline {
+  font-family: 'Special Elite', cursive;
+  font-size: 250%;
+}
+
+main {
+  background: rgba(115, 115, 115, 0.85);
+  font-family: 'Poppins', sans-serif;
+  font-size: 110%;
+  box-shadow:
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  border-radius: 25px;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+#description {
+  text-align: center;
+}
+
+/* styling for survey input components */
+
+.input-group {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.wrapper-col-subgroup {
+  padding-top: 10px;
+}
+
+.wrapper-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.wrapper-row label {
+  padding-left: 5px;
+}
+
+.input-box-style {
+  padding: 5px;
+  border-radius: 5px;
+  overflow: auto;
+  font-size: 110%;
+  width: 100%;
+  color: black;
+}
+
+.submit-box-style {
+  padding: 5px;
+  border-radius: 5px;
+  overflow: auto;
+  color: black;
+  font-size: 110%;
+}
+
+option {
+  flex-grow: 1;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* footer styling */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(45, 90%, 50%);
+}
+
+#my-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#my-links li {
+  padding: 10px 0 10px 0;
+}
+
+input {
+  color: white;
+}
+
+/* output formatting */
+
+.output-header, .output-subheader, th {
+  text-shadow: 2px 2px 8px black;
+  text-align: center;
+}
+
+.divider {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px black;
+
+}
+
+.output-article {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classifier-result {
+  text-shadow: 2px 2px 8px black;
+  color: orange;
+  text-align: center;
+  font-size: 50px;
+}
+
+th, td {
+  text-align: right;
+  padding: 0 15px;
+  border-bottom: 1px solid white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-center{
+  text-align: center;
+}
+
+/* reset button */
+.reset-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: orange;
+    box-shadow: 0.3em 0.3em 1em rgb(0 0 0 / 50%);
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+/* media queries */
+
+@media screen and (min-width: 1200px) {
+
+  main, header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px
+  }
+
+  .background-image {
+    background-image: url("https://images.unsplash.com/photo-1548025396-689d647d00c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1347&q=80");
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: 50% 100%;
+  }
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!--font awesome icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- meta tag for media queries -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!--Individual Stylesheet-->
+    <link rel="stylesheet" href="../static/stylesheets/main.css">
+  </head>
+
+  <body class="background-image">
+
+    <header>
+      <h1 id="title" class="font-headline">Wine Style Classifier</h1>
+    </header>
+
+    <main>
+      {% block content %}
+
+      {% endblock %}
+    </main>
+
+    <footer>
+      <p>Photo by Biljana Martinic on <a href ="https://unsplash.com/photos/IGJ_21drT3g">Unsplash</a>.</p>
+      <p>Read more about this app and other wine-related projects on the <a href="https://www.grapevineplots.com/">Grapevine Plots</a> web site.</p>
+      <p>A <i class="fas fa-wine-glass-alt"></i>-fueled project by</p>
+      <ul id="my-links">
+        <li><a href="https://twitter.com/PenguinPhoenixE" target="_blank"><i class="fab fa-twitter-square"></i> @PenguinPhoenixE</a></li>
+        <li><a href="https://www.elizabethwotawa.com" target="_blank"><i class="fas fa-external-link-alt"></i> www.elizabethwotawa.com</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>

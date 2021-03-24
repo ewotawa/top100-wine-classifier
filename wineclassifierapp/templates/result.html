@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+      <section>
+        <article>
+          <h2 class="output-header">Wine Classifier Results</h2>
+          <p class="detail-center">The wine review model classified your wine as:</p>
+          <p class="classifier-result">{{ max_style }}</p>
+        </article>
+        <article>
+          <h2 class="output-header">Percentages by Wine Class</h2>
+          <p class="detail-center">Below is the prediction breakdown of the wine classifier predictions by wine style.</p>
+          <table>
+            <tr>
+              <th>Wine Style</th>
+              <th>Probability</th>
+            </tr>
+            {% for style, prob in classifier_dict.items() %}
+            <tr>
+              <td>{{ style }}</td>
+              <td>{{ (prob * 100)|round(3) }}%</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </article>
+      </section>
+
+      <section class="divider">
+        <i class="fas fa-wine-glass-alt"></i>
+        <i class="fas fa-wine-bottle"></i>
+        <i class="fas fa-wine-glass-alt"></i>
+      </section>
+
+      <section>
+        <h2 class="output-header">Provided Wine Details</h2>
+        <p class="detail-center">You provided the following wine information:</p>
+        <article>
+          <h3 class="output-subheader">Wine Label</h3>
+          <p class="detail-center">{{ winelabel }}</p>
+        </article>
+        <article>
+          <h3 class="output-subheader">Wine Review</h3>
+          <p>{{ winereview }}</p>
+        </article>
+        <article>
+          <h3 class="output-subheader">Wine Style</h3>
+          <p class="detail-center">{{ style_input }}</p>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <a class="reset-button" href="{{ url_for('index') }}">Reset</a>
+        </article>
+      </section>
+
+
+{% endblock %}

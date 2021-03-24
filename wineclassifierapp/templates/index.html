@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+      <section>
+        <p id="description">Test how well a classification model built on <i>Wine Spectator</i>'s Top 100 Wine reviews (English language only) between 1988 and 2020. Enter your own wine review, classify the wine, and submit to see how well the model compares to your entry.</p>
+      </section>
+      <section>
+        <form id="survey-form" action="{{ url_for('result') }}">
+          <div class="input-group">
+            <label for="winelabel" id="winelabel_label">Wine Label: </label>
+            <input type="text" id="winelabel" name="winelabel" class="input-box-style" placeholder="Enter the wine label information" required></input>
+          </div>
+
+          <div class="input-group">
+            <label for="winereview">Wine Review: </label>
+            <textarea id="winereview" name="winereview" rows="10" class="input-box-style" required>Enter the text of the wine review here.</textarea>
+          </div>
+
+          <div class="input-group">
+            <label for="dropdown'">Wine Style: </label>
+            <select id="dropdown" class="input-box-style" name="winestyle" required>
+              <option value="0_dessertfortified" name="winestyle">Dessert & Fortified</option>
+              <option value="1_red" name="winestyle">Red</option>
+              <option value="2_roserosado" name="winestyle">Rosé | Rosado</option>
+              <option value="3_sparkling" name="winestyle">Sparkling</option>
+              <option value="4_white" name="winestyle">White</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <input type="submit" id="submit" class="submit-box-style" value="Submit your review">
+          </div>
+
+        </form>
+      </section>
+
+{% endblock %}
